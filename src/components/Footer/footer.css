@@ -1,0 +1,19 @@
+.footer{
+    display: flex;
+    background-color: black;
+  }
+  
+  .address{
+    padding-left:10vw;
+    color: antiquewhite;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+  
+  }
+  
+  .contact-form{
+    padding-left:10vw;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    width: max-content;
+  }

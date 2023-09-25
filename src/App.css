@@ -1,38 +1,54 @@
-.App {
-  text-align: center;
+.app{
+  font-family:"Open Sans",sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bg-img {
+  /* The image used */
+  background: linear-gradient(to top, #1707a4, #272deaba), url("images/bg3.jpg") no-repeat top center;
+  /* height: 90vh; */
+  min-height: 380px;
+  /* Center and scale the image nicely */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 90% 100%;
+  /* Needed to position the navbar */
+  position: relative;
+  /* display: flex; */
+  animation: shrink 5s infinite alternate;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@keyframes shrink {
+  0% {
+    background-size: 110% 110%;
   }
-}
+  100% {
+    background-size: 100% 100%;
+  }
+} 
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.headerText{
+  padding-top: 10%;
+  padding-left: 20%;
+  /* font-size: 30px; */
+  padding-bottom: 10%;
   color: white;
+  font-family: initial;
 }
 
-.App-link {
-  color: #61dafb;
+.headerLine1{
+  color: chartreuse;
+  font-size:60px;
+  padding-left: 1%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.headerLine2{
+  font-size:150px;
+  margin-top: -50px;
+}
+
+.headerLine3 {
+  padding-top: 2%;
+  font-size: 20px;
+  padding-left: 1%;
 }

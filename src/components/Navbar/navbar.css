@@ -1,0 +1,29 @@
+/* Position the navbar container inside the image */
+.container {
+    position: absolute;
+    margin: 1%;
+    z-index: 1;
+  }
+  
+  /* The navbar */
+  .topnav {
+    overflow: hidden;
+    background-color: transparent;
+    margin-left:55%;
+  }
+  
+  /* Navbar links */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 700;
+    transition: box-shadow 1s;
+  }
+  
+  .topnav a:hover {
+    box-shadow: inset 0 -5px rgb(11, 5, 203);
+  }
