@@ -1,6 +1,5 @@
 .header{
     background-color: #1403ae;
-    /* height: 5vh; */
     display: flex;
     color: white;
   }
@@ -12,7 +11,7 @@
     align-items: center;
     border-right: rgba(17, 103, 103, 0.916);
     border-style: solid;
-    border-width: 0 3px 0px 0;
+    border-width: 0 0.2vw 0px 0;
   }
   
   .contact-tab{
@@ -21,12 +20,12 @@
     align-items: center;
     border-right: rgba(17, 103, 103, 0.916);
     border-style: solid;
-    border-width: 0 3px 0px 0;
+    border-width: 0 0.2vw 0px 0;
     margin-top:1vh
   }
   
   .contact-tab-txt{
-    margin-right: 10vw;
+    margin-right: 5vw;
     font-weight: 700;
   }
   

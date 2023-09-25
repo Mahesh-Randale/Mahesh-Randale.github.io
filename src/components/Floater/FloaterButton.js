@@ -10,22 +10,22 @@ const FloaterButton = () => {
         )
     }
     return (
-        <div class="floating-container">
-            <div class="floating-button">+</div>
-            <div class="element-container">
+        <div className="floating-container">
+            <div className="floating-button">+</div>
+            <div className="element-container">
 
                 <a href = "/contact" onClick={handle}>
-                    <span class="float-element tooltip-left">
-                        <i class="material-icons">phone</i>
+                    <span className="float-element tooltip-left">
+                        <i className="material-icons">phone</i>
                     </span>
                 </a>
-                <span class="float-element">
-                    <i class="material-icons">email
+                <span className="float-element">
+                    <i className="material-icons">email
                     </i>
                 </span>
                 <ReactWhatsapp style={{ "backgroundColor": "transparent", "border": "none" , "paddingLeft":"25%"}} number="917028200411">
-                    <span class="float-element">
-                        <i class="material-icons">chat</i>
+                    <span className="float-element">
+                        <i className="material-icons">chat</i>
                     </span>
                 </ReactWhatsapp>
             </div>

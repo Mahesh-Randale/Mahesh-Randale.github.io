@@ -1,15 +1,22 @@
 /* Position the navbar container inside the image */
 .container {
-    position: absolute;
-    margin: 1%;
-    z-index: 1;
+    /* position: absolute;
+    z-index: 1; */
+    position: relative;
+    background-color: #5203ef;
+  }
+
+  .container1 {
+    position: relative;
+    background-color: #5203ef;
   }
   
   /* The navbar */
   .topnav {
     overflow: hidden;
     background-color: transparent;
-    margin-left:55%;
+    display: flex;
+    justify-content: flex-end;
   }
   
   /* Navbar links */
@@ -17,9 +24,9 @@
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 1vw 1.6vw;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 1.2vw;
     font-weight: 700;
     transition: box-shadow 1s;
   }

@@ -4,16 +4,39 @@
   }
   
   .address{
-    padding-left:10vw;
+    display: block;
+    padding-left:5vw;
     color: antiquewhite;
     margin-top: 10vh;
     margin-bottom: 10vh;
   
   }
   
+  .footernav {
+    overflow: hidden;
+    background-color: transparent;
+  }
+  
+  /* Navbar links */
+  .footernav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 1vw 1.6vw;
+    text-decoration: none;
+    font-size: 1.2vw;
+    font-weight: 700;
+    transition: box-shadow 1s;
+  }
+  
+  .footernav a:hover {
+    box-shadow: inset 0 -5px rgb(11, 5, 203);
+  }
+  
   .contact-form{
     padding-left:10vw;
     margin-top: 10vh;
     margin-bottom: 10vh;
-    width: max-content;
+    width: 30vw;
+    margin-right: 10vw;
   }

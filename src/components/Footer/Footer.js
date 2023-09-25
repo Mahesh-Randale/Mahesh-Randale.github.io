@@ -61,10 +61,10 @@ const Footer = () => {
             </div>
             <div className="address">
                 <h3>Useful Links</h3>
-                <div className="topnav" style={{ margin: 0 }}>
-                    <Link className="link" to="/">
+                <div className="footernav" style={{ margin: 0 }}>
+                    <Link className="link" to="/home">
                         Home
-                    </Link><br />
+                    </Link>
                     <Link className="link" to="/pages">
                         Pages
                     </Link><br />
@@ -82,7 +82,7 @@ const Footer = () => {
                     </Link><br />
                 </div>
             </div>
-            <div style={{ "paddingRight": "10%" }}>
+            <div>
                 <div className="contact-form">
                     <h3 style={{ color: "antiquewhite" }}>Contact Form:</h3><br />
                     <Form>
@@ -131,20 +131,12 @@ const Footer = () => {
                         <button className="btn btn-primary" onClick={sendExampleEmailRequest}>Contact us</button>
                     </div>
                 </div>
-                <div style={{ "color": "antiquewhite", "paddingLeft": "10vw" }}>
+                <div style={{ "color": "antiquewhite"}}>
                     {submitted && 'Thanks for Contacting us,\n Our Team will reach out to you shortly'}
                     {error ? `Unexpected error: ${error}` : null}
                     {loading && 'Please wait ...'}
                 </div>
             </div>
-
-            {/* <ReactWhatsapp
-        className="btn btn-primary"
-          onClick={handleSubmit}
-          number="917028200411"
-          message={formData.message}
-        >Chat in Whatsapp
-        </ReactWhatsapp> */}
         </div>
     );
 };

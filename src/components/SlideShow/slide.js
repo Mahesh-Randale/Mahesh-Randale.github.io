@@ -1,11 +1,11 @@
 import "./slide.css";
-// import bg1.jpg from "../images/"
 import React from 'react';
 import Navbar from "../Navbar/Navbar";
+import { useLocation } from "react-router-dom";
 const SlideShow = () => {
     const colors = ["#0088FE", "#00C49F", "#FFBB28"];
     const delay = 4000;
-
+    const location = useLocation();
     const [index, setIndex] = React.useState(0);
     const timeoutRef = React.useRef(null);
 
@@ -32,7 +32,7 @@ const SlideShow = () => {
 
     return (
         <div> <Navbar />
-            <div className="slideshow">
+            <div className={location.pathname === "/home"?"slideshow":"slideshow1"}>
                 <div
                     className="slideshowSlider"
                     style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}

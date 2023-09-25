@@ -11,7 +11,8 @@ root.render(
   <React.StrictMode>
      <FloaterButton />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"></link>
-   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+
     <App />
   </React.StrictMode>
 );
