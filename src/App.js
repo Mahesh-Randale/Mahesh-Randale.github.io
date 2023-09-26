@@ -1,5 +1,5 @@
 import Blogs from './pages/Blog';
-import Home from './pages/Home';
+import Home from './pages/Home/Home';
 import Contact from './pages/Contact';
 import Layout from './pages/Layout';
 import Services from './pages/Services';

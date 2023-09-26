@@ -1,0 +1,31 @@
+.home-card-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 10vh;
+
+}
+.home-cards{
+    flex-grow: 1;
+    flex-basis: 200;
+    max-width: 32.95vw;
+    display: flex;
+    align-items: center;
+    color: wheat;
+}
+.home-cards1{
+    background: linear-gradient(to top, #1707a4, #272deaba), url("../../images/bg4.jpg") no-repeat top center;
+    height: 30vw;
+}
+
+.home-cards2{
+    background: linear-gradient(to top, #1707a4, #272deaba), url("../../images/bg5.jpg") no-repeat center center;
+}
+
+.home-cards3{
+    background: linear-gradient(to top, #1707a4, #272deaba), url("../../images/bg6.jpg") no-repeat top center;
+}
+
+.home-card-title{
+    max-width: 60%;
+    margin: auto;
+}
