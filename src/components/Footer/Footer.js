@@ -81,7 +81,7 @@ const Footer = () => {
                         Contact Us
                     </Link><br />
                 </div>
-            </div>
+                </div>
             <div>
                 <div className="contact-form">
                     <h3 style={{ color: "antiquewhite" }}>Contact Form:</h3><br />
