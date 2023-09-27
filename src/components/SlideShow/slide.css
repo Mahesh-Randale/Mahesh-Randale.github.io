@@ -14,7 +14,7 @@
   
   .slideshowSlider {
     white-space: nowrap;
-    transition: ease 1000ms;
+    transition: ease-in-out 1000ms;
   }
   
   .slide0 {
@@ -49,9 +49,15 @@
     border-radius: 50%;
     cursor: pointer;
     margin: 1.5vw 0.7vw 0px;
-    background-color: #c4c4c4;
+    background-color: white;
+    border: 4px solid whitered;
   }
   
   .slideshowDot.active {
-    background-color: #6a0dad;
+    background-color: transparent;
+    box-shadow: 0 0 5px 5px white;
+  }
+
+  .nextButton{
+    margin-left: 96vw;
   }
