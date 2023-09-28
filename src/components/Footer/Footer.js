@@ -34,28 +34,28 @@ const Footer = () => {
         <div className="footer">
             <div className="address">
                 <h3>Address</h3><br />
-                <i class="bi bi-sign-turn-left-fill"></i>&nbsp;Shivshankar P. Randale &
+                <i className="bi bi-sign-turn-left-fill"></i>&nbsp;Shivshankar P. Randale &
                 Co.
                 <br />
                 <br />
-                <i class="bi bi-telephone-fill"></i>&nbsp;+91-7028200411
+                <i className="bi bi-telephone-fill"></i>&nbsp;+91-7028200411
                 <br />
                 <br />
-                <i class="bi bi-envelope-open"></i>&nbsp;sprca@gmail.com
+                <i className="bi bi-envelope-open"></i>&nbsp;sprca@gmail.com
                 <br />
                 <br />
             </div>
             <div className="address">
                 {" "}
                 <h3>Services</h3><br />
-                <i class="bi bi-sign-turn-left-fill"></i>&nbsp;Shivshankar P. Randale &
+                <i className="bi bi-sign-turn-left-fill"></i>&nbsp;Shivshankar P. Randale &
                 Co.
                 <br />
                 <br />
-                <i class="bi bi-telephone-fill"></i>&nbsp;+91-7028200411
+                <i className="bi bi-telephone-fill"></i>&nbsp;+91-7028200411
                 <br />
                 <br />
-                <i class="bi bi-envelope-open"></i>&nbsp;sprca@gmail.com
+                <i className="bi bi-envelope-open"></i>&nbsp;sprca@gmail.com
                 <br />
                 <br />
             </div>

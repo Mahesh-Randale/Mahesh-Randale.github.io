@@ -1,0 +1,45 @@
+.parent{
+    /* height: 100vw; */
+}
+.child {
+    position: relative;
+    left: 40px;
+}
+
+.one {
+    width: 90vw;
+    height: 60vw;
+    text-align: center;
+    /* padding: 10px; */
+    /* position: relative; */
+    /* margin: 0 auto; */
+    top: 20vw;
+    background:linear-gradient(to top, #1707a4, #272deaba),url("../../images/about_bg.jpg") no-repeat top center;
+    background-size: cover;
+
+}
+
+.two {
+    background: url("../../images/profile.jpg") no-repeat top center;
+    width: 90vw;
+    height: 50vw;
+    /* padding: 10px;
+    margin: 10px; */
+    position: relative;
+    bottom: 55vw;
+    z-index: 1;
+}
+
+.about-story{
+    color: white;
+    padding-top: 15vw;
+}
+.about-description-parent{
+    padding-left:5vw;
+    color: white;
+    text-align: left;
+}
+.about-description{
+ display: inline-block;
+ width:40vw;
+}

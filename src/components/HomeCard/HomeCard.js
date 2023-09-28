@@ -5,7 +5,7 @@ const HomeCard = () => {
       <div className="home-cards , home-cards1">
         <div className="home-card-title">
           <h3>
-            <i class="bi bi-graph-up-arrow"></i> &nbsp;Analyze your business
+            <i className="bi bi-graph-up-arrow"></i> &nbsp;Analyze your business
           </h3>
           <br />
           Transforming distribution and marketing with key capabilities in
@@ -15,7 +15,7 @@ const HomeCard = () => {
       <div className="home-cards , home-cards2">
         <div className="home-card-title">
           <h3>
-            <i class="bi bi-people-fill"></i> &nbsp;A Team of Professionals
+            <i className="bi bi-people-fill"></i> &nbsp;A Team of Professionals
           </h3>
           <br />
           Transforming distribution and marketing with key capabilities in
@@ -25,7 +25,7 @@ const HomeCard = () => {
       <div className="home-cards , home-cards3">
         <div className="home-card-title">
           <h3>
-            <i class="bi bi-stopwatch"></i> &nbsp;ON TIME SERVICE
+            <i className="bi bi-stopwatch"></i> &nbsp;ON TIME SERVICE
           </h3>
           <br />
           Transforming distribution and marketing with key capabilities in
