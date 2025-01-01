@@ -40,7 +40,9 @@
   
   .slideshowDots {
     text-align: center;
-    background-color: #1707a4;
+    position: relative;
+    z-index: 1;
+    margin-top: -10vh;
   }
   
   .slideshowDot {
