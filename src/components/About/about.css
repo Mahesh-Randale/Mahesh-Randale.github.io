@@ -7,13 +7,11 @@
 }
 
 .one {
-    width: 90vw;
+    /* width: 90vw; */
     height: 60vw;
     text-align: center;
-    /* padding: 10px; */
-    /* position: relative; */
-    /* margin: 0 auto; */
     top: 20vw;
+    left:0;
     background:linear-gradient(to top, #1707a4, #272deaba),url("../../images/about_bg.jpg") no-repeat top center;
     background-size: cover;
 
@@ -22,14 +20,13 @@
 .two {
     background: url("../../images/profile.jpg") no-repeat top center;
     width: 90vw;
-    height: 50vw;
+    height: 29vw;
     /* padding: 10px;
     margin: 10px; */
     position: relative;
     bottom: 55vw;
     z-index: 1;
 }
-
 .about-story{
     color: white;
     padding-top: 15vw;
@@ -42,4 +39,49 @@
 .about-description{
  display: inline-block;
  width:40vw;
+}
+.three {
+    background: black;
+    box-shadow: 10px 10px 10px 10px;
+    background-color: transparent;
+    height: 50vw;
+    position: relative;
+    bottom: 30vw;
+    width: 80vw;
+    margin: auto;
+    left: 0%;
+    z-index: 2;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fact1{
+    height: 50%;
+    width: 50%;
+    background: black;
+}
+.fact2{
+    height: 50%;
+    width: 50%;
+    background: white;
+    color:rgb(115, 115, 230);
+    padding-top: 2vw;
+    padding-left: 5vw;
+    text-wrap:balance;
+}
+.fact3{
+    height: 50%;
+    width: 50%;
+    background: rgb(80, 3, 3);
+    color: white;
+    padding-top: 3vw;
+    padding-left: 4vw;
+    text-wrap:balance;
+}
+.fact4{
+    height: 50%;
+    width: 50%;
+    background: blue;
+    background: url("../../images/about_img1.jpg") no-repeat top center;
+
 }
