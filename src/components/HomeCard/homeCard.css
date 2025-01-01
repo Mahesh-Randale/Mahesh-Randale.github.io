@@ -14,11 +14,11 @@
 }
 .home-cards1{
     background: linear-gradient(to top, #1707a4, #272deaba), url("../../images/bg4.jpg") no-repeat top center;
-    height: 30vw;
+    height: 20vw;
 }
 
 .home-cards2{
-    background: linear-gradient(to top, #1707a4, #272deaba), url("../../images/bg5.jpg") no-repeat center center;
+    background: linear-gradient(to top, #1707a4, #272deaba), url("../../images/bg5.jpg") no-repeat top center;
 }
 
 .home-cards3{

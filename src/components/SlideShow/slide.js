@@ -49,7 +49,10 @@ const SlideShow = () => {
                   <br /> with us and focus on your core business
                 </div>
               </div>
-              <div className="slideshowDots">
+            </div>
+          ))}
+        </div>
+        <div className="slideshowDots">
                 {colors.map((_, idx) => (
                   <div
                     key={idx}
@@ -59,9 +62,6 @@ const SlideShow = () => {
                     }}
                   ></div>
                 ))}
-              </div>
-            </div>
-          ))}
         </div>
       </div>
     </div>

@@ -53,12 +53,14 @@ const ServiceCards = () => {
       <hr className="service-hr" />
       <div className="service-Cards-Holder">
         {service_title_text.map((service_title, index) => (
+          <div className="serviceCard-container">
+           <button style = {{border: "None"}} key={service_buttons_links} onClick={()=> setIndex(index)}>
           <Card
             key={index}
             className="servicecards"
             style={{
               width: "25rem",
-              boxShadow: "10px 15px 5px cornflowerblue",
+              // boxShadow: "10px 15px 5px cornflowerblue",
             }}
           >
             <Card.Img
@@ -69,11 +71,13 @@ const ServiceCards = () => {
             <Card.Body>
               <Card.Title>{service_title}</Card.Title>
               <Card.Text>{service_text[index]}</Card.Text>
-              <Button key={service_buttons_links} variant="primary"  onClick={()=> setIndex(index)}>
+              {/* <Button key={service_buttons_links} variant="primary"  onClick={()=> setIndex(index)}>
                 {service_buttons_links[index]}
-              </Button>
+              </Button> */}
             </Card.Body>
           </Card>
+          </button>
+          </div>
         ))}
       </div>
     </div>
